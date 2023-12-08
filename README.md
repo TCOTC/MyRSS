@@ -1,3 +1,5 @@
+[要用“利益分析法”看人](https://mp.weixin.qq.com/s/NTjqmZoQaHz45oATn2SXkw)
+
 [终于见到这世界的终极BOSS了](https://mp.weixin.qq.com/s/dILAErxgkXi68TC_Ozzg2w)
 
 https://mp.weixin.qq.com/s/FA0BIeeg7QypJX6ZQLBTog
