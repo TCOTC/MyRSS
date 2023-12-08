@@ -1,31 +1,7 @@
-[要用“利益分析法”看人](https://mp.weixin.qq.com/s/NTjqmZoQaHz45oATn2SXkw)
+# 手动把收藏的文章做成 RSS 源
 
-[终于见到这世界的终极BOSS了](https://mp.weixin.qq.com/s/dILAErxgkXi68TC_Ozzg2w)
-
-https://mp.weixin.qq.com/s/FA0BIeeg7QypJX6ZQLBTog
-
-https://mp.weixin.qq.com/s/x_6fVgZLiW09dSVcF81Dkw
-
-https://mp.weixin.qq.com/s/rwqFtOWg3qGfz-82q05RAA
-
-https://mp.weixin.qq.com/s/jkmSqJmCa9dwp_tIYtUitw
-
-https://mp.weixin.qq.com/s/nJt1q8yLSNNjLCFooXkxMQ
-
-https://mp.weixin.qq.com/s/wilrZKfx1cOvbW0Kk1cAog
-
-https://mp.weixin.qq.com/s/Ox5x2WKdooliVDUh9DBnXg
-
-https://mp.weixin.qq.com/s/XNZdyWQSn0g4Jml7lfRW5Q
-
-https://sspai.com/post/84336
-
-https://mp.weixin.qq.com/s/yurBvBz3-nMMSoS-Vm7SfA
-
-https://mp.weixin.qq.com/s/JY7YDMbgMFHNSKgrtfrzxQ
-
-https://mp.weixin.qq.com/s/bv6jkRdJjWjz2QTfXnBbQQ
-
-https://mp.weixin.qq.com/s/z6soXCVEkqizxlEvZIyG8w
-
-https://mp.weixin.qq.com/s/nPIYsoRj81g7caqLvIPZVg
+1. 在网页打开收藏的文章
+2. 使用 Quicker 动作 [\](\) 获取选中的文字和网页链接，拼成 `<a href="{%}">{%}</a>` 的格式输出到剪贴板
+3. [编辑 index.html 文件](https://github.com/TCOTC/MyRSS/edit/main/index.html) ，在前面粘贴
+4. [GitHub Action](https://github.com/TCOTC/MyRSS/actions) 自动生成 [静态页面](https://tcotc.github.io/MyRSS/)https://tcotc.github.io/MyRSS/
+5. [FeedEverything](https://rsseverything.com/) 根据静态页面生成 [RSS 订阅源](https://rsseverything.com/feed/45acc535-1448-49db-8cb5-d37a76dbfec7.xml)
